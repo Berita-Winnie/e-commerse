@@ -9,6 +9,8 @@ import Cart from './pages/Cart'
 import PlaceOder from './pages/PlaceOder'
 import Oders from './pages/Oders'
 import Navbar from './components/Navbar'
+import Login from './pages/Login'
+
 const App = () => {
   return (
     <div>
