@@ -10,6 +10,7 @@ import PlaceOder from './pages/PlaceOder'
 import Oders from './pages/Oders'
 import Navbar from './components/Navbar'
 import Login from './pages/Login'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/placeOder" element={<PlaceOder />} />
         <Route path="/oders" element={<Oders />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
