@@ -11,11 +11,13 @@ import Oders from './pages/Oders'
 import Navbar from './components/Navbar'
 import Login from './pages/Login'
 import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <SearchBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collection" element={<Collection />} />
