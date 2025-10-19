@@ -18,6 +18,7 @@ import { ToastContainer, toast } from 'react-toastify'
 const App = () => {
   return (
     <div>
+      <ToastContainer />
       <Navbar />
       <SearchBar />
       <Routes>
