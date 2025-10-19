@@ -13,6 +13,8 @@ import Login from './pages/Login'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 
+import { ToastContainer, toast } from 'react-toastify'
+
 const App = () => {
   return (
     <div>
