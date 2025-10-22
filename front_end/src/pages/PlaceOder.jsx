@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/frontend_assets/assets'
+import { ShopContext } from '../context/ShopContext'
 
 const PlaceOder = () => {
   const [method, setMethod] = useState('cod')
+  const { navigate } = useContext(ShopContext)
   return (
     <div className="flex flex-col sm:flex-row justify-between gap-4 pt-5  sm:pt-14 min-h-[80vh] border-t">
       {/* -------------Left Side----------------- */}
@@ -112,7 +114,10 @@ const PlaceOder = () => {
             </div>
           </div>
           <div className="w-full text-end mt-8">
-            <button className="bg-black text-white px-16 py-3 text-sm">
+            <button
+              onClick={() => navigate('/oders')}
+              className="bg-black text-white px-16 py-3 text-sm"
+            >
               PLACE ODER
             </button>
           </div>
