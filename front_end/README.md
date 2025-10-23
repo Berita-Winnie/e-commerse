@@ -1,16 +1,62 @@
-# React + Vite
+# 🛍️ My E-Commerce React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional e-commerce web application built with **React + Vite**.  
+It allows users to browse products, view product details, add items to their cart, and place orders easily.  
+The project focuses on responsive design, modern UI components, and a clean user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛒 Product listing and filtering
+- 🔍 Product search functionality
+- 🧾 Cart management (Add, remove, update items)
+- 💳 Place order page
+- 👤 Login and signup pages
+- 📦 Orders page (view previous orders)
+- 📞 Contact Us and About Us pages
+- 💅 Fully responsive layout with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **State Management:** React Context API
+- **Icons & Assets:** Lucide React / Custom assets
+- **Routing:** React Router DOM
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this project locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
+   ```
+2. Navigate into the project folder:
+   cd yourprojectname
+3. Install dependencies:
+   npm install
+4. Start the development server:
+   npm run dev
+   Then open your browser at the URL shown in the terminal (usually http://localhost:5173).
+
+📁 Folder Structure
+src/
+├── assets/ # Images and icons
+├── components/ # Reusable UI components (Navbar, Footer, ProductItem, etc.)
+├── context/ # React Context for global state
+├── pages/ # Main pages (Home, About, Contact, Orders, etc.)
+├── App.jsx # Main app file
+└── main.jsx # App entry point
+
+🧑‍💻 Author
+Developed by:Adika Winrose Berita
+GitHub: https://github.com/Berita-Winnie
+
+📜 License
+This project is licensed under the MIT License — free to use and modify for personal or academic purposes.
